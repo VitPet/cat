@@ -1,0 +1,134 @@
+.wrapper {    
+
+      position: relative;
+     	height: 350px;
+    	
+    	background-size: cover;
+    	text-align: center;
+    	box-shadow: 0 0 10px rgba(0,0,0,1.5);
+    	font-family: 'Lobster', cursive;
+}
+
+   #fashion{
+   	color: white;
+   	font-size: 32px;
+   	padding-top: 70px;
+   	 text-shadow: 1px 1px 3px black, 0 0 3em black;
+		}
+		#shop{
+			font-family: 'Cabin', sans-serif;
+			font-size: 40px;
+			color: #eee;
+				padding-top: 40px;
+			 text-shadow: 1px 1px 3px black, 0 0 3em black;
+
+		}
+		#just{
+			font-family: 'Cabin', sans-serif;
+			font-size: 18px;
+			color: #ddd;
+				 text-shadow: 1px 1px 3px black, 0 0 3em #333;
+		}
+
+.but{
+	width: 250px;
+	border-radius: 100px;
+	text-align: center;
+	background-color: #FF6C14;
+	margin-top: 65px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  font-family: 'Cabin', sans-serif;
+  font-size: 18px;
+  border: 0px;
+	}
+
+	.but:active{
+		outline-color: red;
+		outline-style: dashed;
+		outline-width: 100px;
+	
+	}
+ 
+
+  .but:focus
+  {
+  	outline: none;
+  	border: none;
+  }
+
+
+.first{
+	text-align: center;
+	align-content: center;
+}
+.my-col .img-responsive {
+    display: inline-block;
+    margin-top: 100px;
+    
+}
+.container{
+	text-align: center;
+	margin-top: 100px; 	
+}
+.maintext{
+	text-align: center;
+	font-family: 'Pontano Sans', sans-serif;
+	font-size: 24px;
+	color: #999;
+	margin-top: -40px;
+	margin-bottom: 40px;
+}
+.bottom{
+	margin-top: -10px; 
+}
+
+.row{
+	margin-top: 7px;
+}
+.img{
+	padding: 7px;
+}
+.footer1{
+	margin-top: 50px; 
+  height: 95px;
+	background-color: #FF6C14;
+	text-align: center;
+	padding-top: 25px;
+	font-size: 16px;
+}
+#text1{
+	font-family: 'Hammersmith One', sans-serif;
+
+}
+
+#text2{
+  font-family: 'Hammersmith One', sans-serif;
+	color: #ddd;
+}
+
+.footer2{
+	
+	height: 95px;
+	background-color: #211F20;
+
+	
+}
+.nav li{
+	display: inline;
+	padding-left: 20px;
+	color: #686767;
+	font-family: 'Hammersmith One', sans-serif;
+	font-size: 14px; 
+
+}
+.nav{
+	padding-top: 35px;
+	margin-left: 150px;
+}
+
+.icons{
+	padding-left: 100px;
+	margin-top: -70px;
+	margin-left: 750px;
+
+}
