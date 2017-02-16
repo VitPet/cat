@@ -1,3 +1,4 @@
+
 .wrapper {    
 		position: relative;
      	height: 350px;
@@ -5,7 +6,8 @@
     	text-align: center;
     	box-shadow: 0 0 10px rgba(0,0,0,1.5);
     	font-family: 'Lobster', cursive;
-}
+		
+	}		
 
    #fashion{
    	color: white;
@@ -27,48 +29,9 @@
 			color: #ddd;
 				 text-shadow: 1px 1px 3px black, 0 0 3em #333;
 		}
-.but{
-	width: 250px;
-	border-radius: 100px;
-	text-align: center;
-	background-color: #F8A61D;
-	margin-top: 67px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.6);
-  font-family: 'Cabin', sans-serif;
-  font-size: 18px;
-  padding: 3px;
-  border: 0px;
-  }
 
- a{
-	color: #eee;
-}
-	.but:hover{
-		background-color: #FF6C14;
-		transition: 0.3s;
-		text-decoration: none;
-	}
- 
 
-  .but:focus
-  {
-  	outline: none;
-  	border: none;
-  }
-.but a:hover{
-	text-decoration: none;
-	color: #ccc;
-}
 
-.first{
-	text-align: center;
-	align-content: center;
-}
-.my-col .img-responsive {
-    display: inline-block;
-    margin-top: 100px;
-    
-}
 .container{
 	text-align: center;
 	margin-top: 100px; 	
@@ -93,6 +56,14 @@
 	max-width: 100%;
 	height: auto;
 }
+.img:hover{
+	width: 230px;
+	box-shadow:  8px 5px 30px rgba(0,0,0,0.9);
+	border: none;
+	margin-bottom: -5px;
+    transition: 0.3s;
+}
+
 .footer1{
 	margin-top: 50px; 
     height: 95px;
@@ -151,7 +122,10 @@
 }
 .icons li{
 	display: inline;
+	margin-left: 10px;
+
 }
+
 
 .icons{
 	padding-left: 100px;
@@ -171,10 +145,9 @@
 	}
 }
 @media(max-width: 1062px){
-	
 	.icons{
 		margin-top:  -90px;
-		}
+	}
 }
 
 
