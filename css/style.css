@@ -135,6 +135,7 @@
 
 .icon:hover{
 	background-color: #292929;
+	transition: 0.3s;
 
 }
 
