@@ -1,51 +1,82 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
-
-
 <head>
     <meta charset="UTF-8">
-	<title>Document</title>
+	<title>Shop</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
  	<link href="https://fonts.googleapis.com/css?family=Cabin|Hammersmith+One|Lobster|Pontano+Sans" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+   
     <style type="text/css">
-      .wrapper{
-        background-image: url(images/image.jpg);
-        background-position: center;
-
+        .wrapper{
+            background-image: url(images/image.jpg);
+            background-position: center;
         }
-
-      .btn{
-        border-radius: 20px;
-        width: 15rem;
-        margin-top: 67px;
-        font-family: 'Cabin', sans-serif;
-        font-size: 1.2rem;  
-        text-transform: none;
-        font-style: none;
+        
+        .btn{
+            border-radius: 20px;
+            width: 15rem;
+            margin-top: 67px;
+            font-family: 'Cabin', sans-serif;
+            font-size: 1.2rem;  
+            text-transform: none;
+            font-style: none;
         }
-        @font-face {
-        font-family: Nexa Rust; 
-        src: url(fonts/nexa-rust.script-l-0.otf); 
-   }    
-        @media(max-width: 463px){
-.wrapper{
-   height: 325px;
-}
-.btn{
-    margin-top: 14px;
-}
     
-}   
-@media(max-width: 324px){
-    .wrapper{
-   height: 350px;
-}
+      .button{
+            display: none;
+            border-radius: 20px;
+            width: 15rem;
+            padding: 5px 20px;
+            border:none;
+            color: white;
+            box-shadow:  0px 1px 10px rgba(0,0,0,0.9);
+            margin-top: 68px;
+            background-color: #ff6d00;
+            font-family: 'Cabin', sans-serif;
+            font-size: 1.2rem;  
+            text-transform: none;
+            font-style: none;
+        }
+        
+        .button:focus{
+            background-color: #ff6d00;
+        }
+        
+        .button:active{
+            background-color: #e65100;
+            color: #eee;
+        }
+        
+        @font-face {
+            font-family: Nexa Rust; 
+            src: url(fonts/nexa-rust.script-l-0.otf); 
+        }      
+        
+        @media(max-width: 463px){
+            .wrapper{
+            height: 325px;
+         }
+        
+        .button{
+            margin-top: 14px;
+            }   
+        }   
+         @media(max-width: 768px){
+            .waves-effect{
+            display: none;
+        } 
+            .button{
+            display: inline;
+            }
+        }
+        @media(max-width: 324px){
+            .wrapper{
+            height: 350px;
+        }
 
 }
 
@@ -61,44 +92,43 @@
 	   <p id="fashion">Fashion Shop</p>
 	   <p id="shop">SHOP 50,890 FREE ITEMS</p>
 	   <p id="just">just pay shipping and a tiny transaction fee.</p>
-	   <a class="btn orange accent-4 waves-effect waves-light butt">Getting started</a>
+	   <a class="btn orange accent-4 waves-effect waves-light">Getting started</a>
+       <button class="button">Getting started</button>
     </div>
 
      <div class="container">
         <p class="maintext">Recently added items</p>
-            <div class="row">
-               
-                <img class="col-md-3 col-sm-3 img transition" src="images/img1.jpg" width="210px">
-                <img class="col-md-3 col-sm-3 img transition" src="images/img2.jpg" width="210px">
-                <img class="col-md-3 col-sm-3 img transition" src="images/img3.jpg" width="210px">
-                <img class="col-md-3 col-sm-3 img transition" src="images/img4.jpg" width="210px">
-                
-               
-                
-            </div>
+        <div class="row">
+            <img class="col-md-3 col-sm-3 img" src="images/img1.jpg" width="210px">
+            <img class="col-md-3 col-sm-3 img" src="images/img2.jpg" width="210px">
+            <img class="col-md-3 col-sm-3 img" src="images/img3.jpg" width="210px">
+            <img class="col-md-3 col-sm-3 img" src="images/img4.jpg" width="210px">
+        </div>
     
-            <div class="row">
-                <img class="col-md-3 col-sm-3 img transition" src="images/img5.jpg" width="210px">
-                <img class="col-md-3 col-sm-3 img transition" src="images/img6.jpg" width="210px">
-                <img class="col-md-3 col-sm-3 img transition" src="images/img7.jpg" width="210px">
-                <img class="col-md-3 col-sm-3 img transition" src="images/img8.jpg" width="210px">
-            </div>
+         <div class="row">
+            <img class="col-md-3 col-sm-3 img" src="images/img5.jpg" width="210px">
+            <img class="col-md-3 col-sm-3 img" src="images/img6.jpg" width="210px">
+            <img class="col-md-3 col-sm-3 img" src="images/img7.jpg" width="210px">
+            <img class="col-md-3 col-sm-3 img" src="images/img8.jpg" width="210px">
+        </div>
     </div> 
+    
     <div class="footer1">
-        <span id="text1"> Download the Free App</span>
+        <span id="text1">Download the Free App</span>
         <span id="text2">To see more items</span>
-        <span><a href=""><img class="strelka transition" src="images/str.png" width="45px;"></a></span>
+        <span><a class="transition" href=""><i class="transition play fa fa-play-circle" aria-hidden="true"></i></a></span>
     </div>
     
         <div class="footer2">
         <div class="col-md-5 col-sm-6 nav">
             <ul>
-            <li><a class="transition" href="">About</a></li>
-            <li><a class="transition" href="">How it Works</a></li>
-            <li><a class="transition" href="">FAQs</a></li>
-            <li><a class="transition" href="">Privacy Policy</a></li>
-        </ul>
+                <li><a class="transition" href="">About</a></li>
+                <li><a class="transition" href="">How it Works</a></li>
+                <li><a class="transition" href="">FAQs</a></li>
+                <li><a class="transition" href="">Privacy Policy</a></li>
+            </ul>
         </div>
+        
         <div class="col-md-4 col-sm-4 icons">
             <ul>   
                 <li><a href=""><img class="icon transition" src="images/1.png" width="50px"></a></li>
@@ -107,10 +137,10 @@
                 <li><a href=""><img class="icon transition" src="images/4.png" width="50px"></a></li>
             </ul>
         </div>
+        
         </div>
     
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-
       <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
 </body>
 </html>
