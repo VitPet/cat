@@ -99,7 +99,7 @@
 	color: #ddd;
 }
 
-.play{
+.items{
  	font-size: 40px;
  	color: #ddd;
   font-stretch: inherit;
@@ -108,7 +108,7 @@
 
  }
 
-.play:hover{
+.items:hover{
 	color:  #616161;   
 	transition: all 0.3s ease ;
 }
@@ -183,7 +183,7 @@ padding-top: 25px;
 	padding: 15px 10px;
 	margin-bottom: -10px;
 }
-.play:hover{
+.items:hover{
 	color: #ddd;
 }
 .footer2{
