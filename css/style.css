@@ -1,6 +1,6 @@
 
 .wrapper {    
-		position: relative;
+			position: relative;
      	height: 350px;
     	background-size: cover;
     	text-align: center;
@@ -34,7 +34,9 @@
 
 .container{
 	text-align: center;
-	margin-top: 140px; 	
+	margin-top: 140px; 
+	max-width: 100%;
+	height: auto;	
 }
 .maintext{
 	text-align: center;
@@ -44,19 +46,14 @@
 	margin-top: 50px;
 	margin-bottom: 40px;
 }
-.bottom{
-	margin-top: -10px; 
-}
 
-.row{
-	margin-top: -15px;
-}
+
 .img{
-	padding: 7px;
+	padding: 0px 10px;
 	max-width: 100%;
 	height: auto;
 }
-.img1:hover{
+/* .img1:hover{
 	margin: -3px;
 	width: 230px;
 	box-shadow:  8px 5px 30px rgba(0,0,0,0.9);
@@ -87,7 +84,7 @@
 	border: none;
 	margin-bottom: -5px;
   transition: 0.2s;
-}
+} */
 
 .footer1{
 	margin-top: 50px; 
@@ -118,20 +115,17 @@
 }
 
 .footer2{
-	
 	height: 95px;
 	background-color: #211F20;
-
-	
 }
 .nav li{
 	display: inline;
-	padding-left: 20px;
 	color: #686767;
 	font-family: 'Hammersmith One', sans-serif;
 	font-size: 14px; 
-
+	padding: 10px;
 }
+
 .nav a{
 	color: #777;
 }
@@ -140,20 +134,16 @@
 	text-decoration: none;
 }
 .nav{
-	padding-top: 40px;
-	margin-left: 150px;
+  padding-top: 40px;
+	margin-left: 10%; 
 }
 .icons li{
 	display: inline;
-	margin-left: 10px;
-
 }
 
-
 .icons{
-	padding-left: 100px;
-	margin-top: -70px;
-	margin-left: 750px;
+	float: right;
+	padding-top: 25px;
 }
 .transition {
   transition: 0.3s;
@@ -166,16 +156,68 @@
 
 }
 
-@media(max-width: 1347px){
-	.img{
-		width: 20%;
+@media(max-width: 992px){
 
-	}
+.img1:hover{
+	transition: none;
+	width: 225px;
 }
-@media(max-width: 1062px){
-	.icons{
-		margin-top:  -90px;
+.nav{
+  padding-top: 35px;
+	margin-left: 10%; 
+}
+	.nav li{ 
+	padding: 6px;
+}
+.icons{
+padding-top: 25px;
+}
+
+}
+@media(max-width: 767px){
+	.img{
+	width: 215px;
+	padding: 15px 10px;
+	margin-bottom: -10px;
+}
+	.footer2{
+		height: 130px;
+		text-align: center;
 	}
+	.nav{
+  padding-top: 20px;
+	margin-right: 40px;	 
+}
+.icons{
+padding-left: 3%;
+padding-top: 10px;
+float: none;
+
+
+}
+}
+@media(max-width: 480px){
+.img:hover{
+	transition: none;
+	width: 225px;
+}
+.nav{
+  padding-top: 20px;
+	margin-left: 16%; 
+}
+.nav li{
+display: block; 
+padding: 4px;
+}
+.icons{
+padding-top: 10px;
+}
+.footer2{
+		height: 220px;
+}
+.btn{
+	background-color: red;
+}
 }
 
 
