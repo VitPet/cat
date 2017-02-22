@@ -5,7 +5,8 @@
   text-align: center;
   box-shadow: 0 0 10px rgba(0,0,0,1.5);
   font-family: 'Lobster', cursive;
-}	
+	
+	}	
 #fashion{
   font-family: Nexa Rust, 'script-1-0', cursive;
   color: white;
@@ -45,9 +46,10 @@
 }
 
 .img{
-	padding: 0px 10px;
 	max-width: 100%;
+	margin-bottom: -17px;
 	height: auto;
+	padding: 10px;
 }
  
 .footer1{
@@ -76,7 +78,6 @@
  	vertical-align: middle;
 
  }
-
 
 .footer2{
 	height: 95px;
@@ -146,7 +147,7 @@ padding-top: 25px;
 @media(max-width: 767px){
 	.img{
 	width: 215px;
-	padding: 15px 10px;
+	padding: 10px 10px;
 	margin-bottom: -10px;
 }
 
@@ -166,6 +167,10 @@ padding-top: 25px;
 
 }
 @media(max-width: 480px){
+	.maintext{
+		padding-top: 30px;
+
+	}
 
 .nav{
   padding-top: 20px;
@@ -181,9 +186,7 @@ padding-top: 25px;
 .footer2{
 	height: 220px;
 }
-.btn{
-	background-color: red;
-}
+
 }
 
 
