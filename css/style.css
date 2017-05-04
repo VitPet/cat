@@ -93,7 +93,7 @@
 }
 
 .nav a{
-	color: #777;
+	color: #696969;
 	text-decoration: none;
 }
 
@@ -110,6 +110,15 @@
 .icons{
 	float: right;
 	padding-top: 25px;
+}
+.icon{
+	color: #555;
+	font-size: 28px;
+	padding: 10px;
+}
+.icon:hover{
+	color: #393939;
+	transition: 0.3s;
 }
 
 @media(min-width: 992px){
@@ -131,10 +140,6 @@
 }
 .icons{
 padding-top: 25px;
-}
-.icon:hover{
-	background-color: #292929;
-	transition: 0.3s;
 }
 
 .nav a:hover{
